@@ -1,0 +1,79 @@
+header>nav>dl>dd{
+    display: inline;
+    margin-bottom: 10px;
+}
+
+header>nav{
+    position: absolute;
+    width: fit-content;
+    right: 0;
+}
+
+header>img{
+    position: absolute;
+    top: 10px;
+}
+
+header{
+    position: relative;
+    padding: 10px;
+    height: 50px;
+}
+
+main>aside{
+    background-color: purple;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 200px;
+}
+main{
+    position: relative;
+}
+
+main>section{
+    margin-left: 200px;
+}
+
+main>aside>nav>dl>dd{
+    margin-bottom: 10px;
+}
+
+main>section>p{
+    margin: 0;
+}
+
+main{
+    position: relative;
+}
+
+footer{
+    background-color: dimgray;
+    height: 50px;
+    position: relative;
+}
+
+footer>span{
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: block;
+    width: fit-content;
+
+    height: fit-content;
+}
+
+main>section>div>div{
+    background-image: url("/Assignment-03/02_case/assests/images/IMG_3878.gif");
+    background-size: cover;
+    background-position: center;
+    width: calc(100%/3);
+    aspect-ratio: 1/1;
+    border: 1px solid green;
+    display: inline-block;
+    margin-right: -6px;
+    box-sizing: border-box;
+}

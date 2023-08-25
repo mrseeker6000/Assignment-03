@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width-device-width,initialize-scale=1.0">
+    <style>
+
+        .ch{
+            position: sticky;
+            top: 0;
+            z-index: 9999;
+        }
+
+        body{
+            margin: 0;
+        }
+        /*section{*/
+        /*    position: sticky;*/
+        /*    top: 0;*/
+        /*}*/
+        section>div:first-child{
+            background-color: aqua;
+            height: 50px;
+            /*position: relative;*/
+
+        }
+
+        section>div:first-child>span{
+            height: fit-content;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            font-weight: bold;
+        }
+
+        section>div:nth-child(2){
+            height: calc(100vh - 50px);
+            position: relative;
+        }
+
+        section>div:nth-child(2)>span{
+            width: fit-content;
+            height: fit-content;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+            font-size: 80px;
+        }
+
+        section:first-child>div:first-child{
+            background-color: blue;
+        }
+        section:first-child>div:nth-child(2){
+            background-color: dodgerblue;
+
+        }
+        section:nth-child(2)>div:first-child{
+            background-color: red;
+        }
+        section:nth-child(2)>div:nth-child(2){
+            background-color: orangered;
+        }
+        section:nth-child(3)>div:first-child{
+            background-color: purple;
+        }
+        section:nth-child(3)>div:nth-child(2){
+            background-color: rebeccapurple;
+        }
+        section:nth-child(4)>div:first-child{
+            background-color: deeppink;
+        }
+        section:nth-child(4)>div:nth-child(2){
+            background-color: lightpink;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="ch">
+            <span>Card 01</span>
+        </div>
+        <div>
+            <span>Hello</span>
+        </div>
+    </section>
+
+    <section>
+        <div class="ch">
+            <span>Card 02</span>
+        </div>
+        <div>
+            <span>How</span>
+        </div>
+    </section>
+
+    <section>
+        <div class="ch">
+            <span>Card 03</span>
+        </div>
+        <div>
+            <span>Are</span>
+        </div>
+    </section>
+
+    <section>
+        <div class="ch">
+            <span>Card 04</span>
+        </div>
+        <div>
+            <span>You...?</span>
+        </div>
+    </section>
+
+</body>
+</html>
